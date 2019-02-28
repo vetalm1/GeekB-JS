@@ -1,0 +1,19 @@
+html {
+    /*background: #cfcfcf;*/
+}
+
+table {
+    border-collapse: collapse;
+   /* background: lightgray;*/
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid darkgray;
+    text-align: center;
+}
+
+.emailbord {
+    border: 1px solid red;
+}
