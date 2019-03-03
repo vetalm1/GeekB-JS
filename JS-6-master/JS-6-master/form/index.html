@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title></title>
+  </head>
+  <body>
+    <a href="test.html" id="toggle-open-form">Открыть форму</a>
+    <form class="form display-block ">
+      <div class="row">
+        <label for="name">Имя</label>
+        <input class="form-input" type="text" id="name" name="name" />
+        <p class="error" id="emptyName">Пустое имя</p>
+      </div>
+
+      <div class="row">
+        <label for="email">Email</label>
+        <input class="form-input" type="text" id="email" name="email" />
+        <p class="error" id="emptyEmail">Пустое Email</p>
+        <p class="error" id="notValudEmail">Невалидный Email</p>
+      </div>
+      <button class="form-submit-button" type="submit">Отправить</button>
+    </form>
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>

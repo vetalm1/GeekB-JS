@@ -1,0 +1,35 @@
+.form {
+    display: none;
+}
+.error {
+    display: none;
+}
+.display-block {
+    display: block;
+}
+.row {
+    height: 60px;
+}
+p {
+    margin: 0;
+}
+
+@keyframes border-model {
+    10%,
+    30%,
+    50%{
+        border-color: red;
+    }
+    60%,
+    80%,
+    100%{
+        border-color: gray;
+    }
+}
+input {
+    border: 1px solid gray;
+}
+.error-input {
+    border: 1px solid gray;
+    animation: border-model 1s;
+}
